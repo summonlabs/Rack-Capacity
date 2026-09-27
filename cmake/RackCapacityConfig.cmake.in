@@ -1,0 +1,14 @@
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+
+# Rack Capacity has no third-party dependencies: it is C++20 standard library
+# only. A consumer therefore needs nothing beyond the imported target below.
+include("${CMAKE_CURRENT_LIST_DIR}/RackCapacityTargets.cmake")
+
+check_required_components(RackCapacity)
+
+set(RackCapacity_VERSION "@PROJECT_VERSION@")
+set(RackCapacity_STATE_FORMAT_VERSION "1")
+set(RackCapacity_SNAPSHOT_LAYOUT_VERSION "1")
+set(RackCapacity_MOUNT_SLOTS_PER_RACK_UNIT "2")

@@ -1,0 +1,22 @@
+Rack Capacity
+
+Copyright 2026 Summon Software Labs
+
+Rack Capacity is an open-source, vendor-neutral runtime that establishes
+per-rack capacity accounting for the Data Center Control Plane: how much
+capacity one exact rack generation has left across physical slots, power,
+cooling, weight and serviceability, which of those constraints becomes binding
+first, and which claims about that capacity must be refused as stale, unknown
+or unauthoritative.
+
+This product is licensed under the Apache License, Version 2.0. See the
+LICENSE file in this distribution for the full license text.
+
+Rack Capacity does not collect or transmit any telemetry. It opens no network
+sockets, performs no name resolution, and contacts no remote service. All state
+it writes is written to local files chosen by the operator and never leaves the
+machine running the software.
+
+Rack Capacity accepts contributions from individuals and organizations on the
+terms of the Apache License 2.0 without requiring a Contributor License
+Agreement (CLA). See CONTRIBUTING.md for contribution guidance.

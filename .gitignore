@@ -1,0 +1,28 @@
+# Build directories
+build/
+build-*/
+out/
+cmake-build-*/
+
+# Install trees produced by validation runs
+_install/
+_install-*/
+_stage/
+_stage-*/
+
+# Benchmark, sanitizer and validation debris
+bench-results/
+scratch/
+*.log
+*.tmp
+*.rcstate
+*.rcstate.prev
+*.rclock
+
+# Editor / OS
+.vs/
+.vscode/
+.idea/
+*.user
+Thumbs.db
+Desktop.ini

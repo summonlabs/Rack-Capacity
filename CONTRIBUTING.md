@@ -85,7 +85,7 @@ Every behavioral change should come with proof:
 * a persistence test through a real close/reopen when durable state changes;
 * an adversarial test when new input is parsed.
 
-Tests must not use timeouts, time-of-day dependence, or fixed sleeps that are
+Tests must not depend on the time of day or on fixed sleeps that are
 load-bearing. Where a test needs a timestamp, it supplies one explicitly.
 
 ## Repository hygiene

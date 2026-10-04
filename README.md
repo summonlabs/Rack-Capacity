@@ -1,7 +1,6 @@
 # Rack Capacity
 
-Rack Capacity is the per-rack capacity accounting runtime of the Data Center
-Control Plane (DCCP), Tranche 2 - Facility Capacity and Placement.
+Rack Capacity is the per-rack capacity accounting runtime.
 
 It answers one question precisely: **how much capacity does this exact rack
 generation have left across physical slots, power, cooling, weight and
